@@ -18,6 +18,7 @@ public class Dropper : MonoBehaviour
 
     void Start()
     {
+        Rb = GetComponent<Rigidbody>();
         Rb.useGravity = false;
     }
 
